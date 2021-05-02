@@ -47,15 +47,15 @@ function Search (){
 
 return (
     <div className="soccer">
-        <h1>Search your Club</h1>
+        <h1>کلاب خود را جستجو کنید</h1>
         <div className="Search">
             <div className="countries_bar up" onClick={changeDropDown}>
-                <h3 className="countries_input">select your country</h3>
+                <h3 className="countries_input">کشور خود را انتخاب کنید</h3>
                 {
                 dropDown?
                 <i className="fas fa-arrow-down"></i> : 
                 <div className="deopDown-close">
-                    <p>close</p>
+                    <p>خروج</p>
                     <i className="fas fa-times"></i>
                 </div>
                 }

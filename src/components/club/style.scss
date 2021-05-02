@@ -18,10 +18,9 @@
 
         p{
             color: #06A9A0;
-            
+            font-size: 20px;
             font-style: normal;
             font-weight: bold;
-            font-size: 12px;
             line-height: 14px;
         }
     }
@@ -45,8 +44,8 @@
             .MenuBar--link{
                 text-decoration: none;
                 font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
+                font-weight: bold;
+                font-size: 20px;
                 line-height: 16px;
                 color: #FFFFFF;
 
@@ -77,8 +76,8 @@
                 padding: 0.5rem 1rem;
                 text-decoration: none;
                 font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
+                font-weight: bold;
+                font-size: 20px;
                 line-height: 16px;
                 color: #FFFFFF;
                 display: flex;
@@ -127,8 +126,8 @@
                         padding: 8px;
                         margin: 0;
                         font-style: normal;
-                        font-weight: 500;
-                        font-size: 17px;
+                        font-weight: bold;
+                        font-size: 20px;
                         line-height: 20px;
                         text-align: center;
                         
@@ -185,6 +184,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
     h1{
         font-style: normal;
         font-weight: bold;
@@ -199,6 +199,7 @@
         border: 2px solid #DEFF5A;
         border-radius: 40px;
         width: 40vw;
+
         
     
         .drop-down{
@@ -216,6 +217,10 @@
                 padding: 7px;
                 cursor: pointer;
                 label{
+                    font-family: 'Roboto';
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 21px;
                     color: #DEFF5A;
                 }
                 &:hover{
@@ -230,6 +235,7 @@
             display: flex;
             align-items: center;    
             justify-content: space-between;
+            flex-flow: row-reverse;
             border-radius: 40px;
             background: #06A9A0 ;
     
@@ -246,6 +252,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-flow: row-reverse;
     
                 p{
                     padding: 5px;

@@ -23,7 +23,7 @@ return (
             </div>
             <div className="menu">
                 <i className="fas fa-bars" onClick={toggleMenuBar} ></i>
-                <p>Menu</p>
+                <p>منو</p>
             </div>  
         </div>
 </div>

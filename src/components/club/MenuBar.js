@@ -11,42 +11,42 @@ return (
     <div className="MenuBar--div">
         <ul className="MenuBar--list">
             <Link className="MenuBar--link" to="/" >
-                <li className="MenuBar--child">Home</li>
+                <li className="MenuBar--child">خانه</li>
             </Link>
 
             <Link className="MenuBar--link" to="/" >
-                <li className="MenuBar--child">Tickets</li>
+                <li className="MenuBar--child">بلیط ها</li>
             </Link>
             
             <Link className="MenuBar--link" to="/" >
-                <li className="MenuBar--child">Tables</li>
+                <li className="MenuBar--child">جداول</li>
             </Link>
             
             <Link className="MenuBar--link" to="/" >
-                <li className="MenuBar--child">Socials</li>
+                <li className="MenuBar--child">گروه ها</li>
             </Link>
             
             <Link className="MenuBar--link" to="/" >
-                <li className="MenuBar--child">Results</li>
+                <li className="MenuBar--child">نتایج</li>
             </Link>
             
             <Link className="MenuBar--link" to="/" >
-                <li className="MenuBar--child">Fixtures</li>
+                <li className="MenuBar--child">امکانات</li>
             </Link>
             
-            <li  className="MenuBar--club">Your Club
+            <li  className="MenuBar--club">کلاب شما
                 <i className="fas fa-angle-down"></i>
                 <ul>
                     <Link className="MenuBar--link" to="/soccer">
-                        <li>Soccer</li>
+                        <li>فوتبال</li>
                     </Link>
                     
                     <Link className="MenuBar--link" to="/">
-                        <li>Tennis</li>
+                        <li>تنیس</li>
                     </Link>
                     
                     <Link className="MenuBar--link" to="/">
-                        <li>Basketball</li>
+                        <li>بسکتبال</li>
                     </Link>
                 </ul>
             </li>
